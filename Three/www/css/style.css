@@ -1,0 +1,400 @@
+/* Fonts */
+@font-face {
+  font-family: 'Aleo-B';
+  src: url('../fonts/Aleo-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aleo-L';
+  src: url('../fonts/Aleo-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aleo-LI';
+  src: url('../fonts/Aleo-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aleo';
+  src: url('../fonts/Aleo-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'WCM';
+  src: url('../fonts/WCManoNegraBta.otf') format('opentype');
+}
+
+/* General */
+body {
+  background-color: #fff;
+  font-family: 'Aleo', Rockwel, serif;
+  font-size: 14px;
+}
+
+.logo {
+  width: 85px;
+  height: 35px;
+  background: url('../img/sprite.png') no-repeat 0 0;
+  margin: 35px 0;
+  vertical-align: middle;
+}
+
+h1 {
+  margin-top: 215px;
+  font-family: 'WCM';
+  font-size: 100px;
+  color: #fff !important;
+}
+
+h2 {
+  font-family: 'Aleo';
+  color: #fff !important;
+  font-size: 16px;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: 'Aleo-B';
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  width: 155px;
+  height: 75px;
+  background: url('../img/sprite.png') no-repeat  0 -300px;
+  padding-top: 15px;
+  margin-bottom: 70px;
+}
+
+h4 {
+  color: #555555;
+  font-size: 16px;
+}
+
+h5 {
+  font-family: 'Aleo-LI';
+  font-style: italic;
+  font-size: 12px;
+  color: #b7b7b7;
+  margin-bottom: 40px;
+}
+
+h6 {
+  font-family: 'Aleo-B';
+  font-weight: bold;
+  font-size: 20px;
+  color: #3b3b3b;
+  margin-bottom: 75px;
+  margin-top: 175px;
+}
+
+.btn-default {
+  margin-top: 35px;
+  color: #b7b7b7;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+/* Nav */
+.navbar {
+  margin-bottom: 0;
+  height: 108px;
+}
+
+.navbar {
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #3b3b3b;
+  font-weight: 100;
+  line-height: 75px;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  background: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background: transparent;
+  color: #3b3b3b;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron-inner {
+  margin-top: 0;
+  min-height: 675px;
+  background: url('../img/hero.jpg') no-repeat;
+  background-size: cover;
+}
+
+/* Menu */
+#menu {
+  border-top: 4px solid #f34949;
+}
+
+.menu-price {
+  margin-top: 10px;
+}
+
+.menu-left-padding {
+    padding-left: 58px;
+}
+
+.menu-right-padding {
+    padding-right: 58px;
+}
+
+/* Dish */
+.dish-item {
+  width: 230px;
+  height: 200px;
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dish-item:first-child {
+  margin-left: 0
+}
+
+.dish-item:last-child {
+  margin-right: 0;
+}
+#dish-1 {
+  background: url('../img/sprite.png') no-repeat 0 -100px;
+}
+
+#dish-2 {
+  background: url('../img/sprite.png') no-repeat -300px -100px;
+}
+
+#dish-3 {
+  background: url('../img/sprite.png') no-repeat -600px -100px;
+}
+
+#dish-4 {
+  background: url('../img/sprite.png') no-repeat -900px -100px;
+}
+
+.dish-text {
+  font-family: 'aleo-L';
+  font-weight: 100;
+  font-size: 16px;
+  color: #555555;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.dish-text:nth-child(odd) {
+    position: absolute;
+    right: 45px;
+}
+
+.dish-rating {
+  font-size: 12px;
+  color: #dedede;
+  margin-top: 8px;
+}
+
+.fa-star {
+  color: #f1df1a;
+}
+
+.dish-circle {
+  margin-top: 175px;
+  color: #dedede;
+  margin-right: 32px;
+}
+
+/* Gallery */
+
+#gallery .img {
+  min-width: 1100px;
+  min-height: 432px;
+  margin-bottom: 200px;
+  background: url('../img/photos.jpg') no-repeat;
+}
+
+/* Footer */
+footer {
+  font-family: 'Aleo-L';
+  font-weight: 100;
+  background-color: #3b3b3b;
+  min-height: 315px;
+  color: #fff;
+  padding: 95px 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer hr {
+  padding: 0;
+  margin: 0;
+  border: none;
+  margin-bottom: 7px;
+}
+
+footer hr:first-child {
+  margin-top: 7px;
+}
+
+footer span {
+  color: #ebebeb;
+}
+
+footer a {
+  display: block;
+  color: #fff;
+}
+
+footer a:hover, footer a:active, footer a:visited {
+  color: #ebebeb;
+}
+
+footer a {
+  margin-bottom: 8px;
+}
+
+footer a:last-child {
+  margin-bottom: 0;
+}
+
+.logo-footer {
+  width: 81px;
+  height: 30px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  background: url('../img/sprite.png') no-repeat -100px 0;
+}
+
+@media (max-width: 1200px) {
+  #gallery .img {
+    min-width: 734px;
+    min-height: 432px;
+    background: url('../img/photos1200.jpg') no-repeat;
+  }
+
+  .dish-text:nth-child(odd) {
+      position: absolute;
+      right: 0px;
+  }
+}
+
+/* Width 992 */
+@media (max-width: 992px) {
+  #gallery .img {
+    margin-bottom: 25px;
+  }
+
+  .menu-left-padding {
+    padding-left: 15px;
+    padding-right: 58px;
+  }
+
+  footer {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 20px;
+    color: #aaa;
+  }
+
+  footer p {
+    color: #fff;
+    margin-top: 25px;
+  }
+
+  .logo-footer {
+    margin: 25px auto;
+  }
+
+  .dish-circle {
+    display: none;
+  }
+
+  .dish-text:nth-child(odd) {
+    display: none;
+  }
+
+  #dish-1, #dish-2, #dish-3, #dish-4 {
+    position: relative;
+    left: 34%;
+    margin-bottom: 20px;
+  }
+
+  .dish-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .dish-rating {
+    margin-bottom: 10px;
+  }
+  #dish .pull-left {
+    float: none !important;
+  }
+
+  h6 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Collapsed nav */
+.navbar-collapse {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  #navbar-three {
+    border: none;
+  }
+
+  #navbar-three ul {
+    margin: 25px -15px 0;
+  }
+
+  #navbar-three > ul > li > a:first-child {
+    border-top: 1px solid #ccc;
+  }
+
+  #navbar-three > ul > li > a {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #navbar-three > ul > li > a:active {
+    background-color: #ececec;
+  }
+}
+
+/* Width 768 */
+
+@media (max-width: 768px) {
+  #gallery .img {
+    min-width: 367px;
+    min-height: 864px;
+    background: url('../img/photos768.jpg') no-repeat center;
+    margin-bottom: 20px;
+  }
+}
