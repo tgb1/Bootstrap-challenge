@@ -79,8 +79,8 @@ h5 {
   color: #fff;
   border: none;
   border-radius: 25px;
-  webkit-border-radius: 25px;
-  moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
   padding: 10px 40px;
 }
 
@@ -98,8 +98,8 @@ h5 {
   color: #fff;
   border: none;
   border-radius: 20px;
-  webkit-border-radius: 20px;
-  moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   padding: 6px 40px;
   margin-left: 100px;
 }
@@ -145,7 +145,7 @@ h5 {
 }
 
 .second-psmall {
-  font-size: 14;
+  font-size: 14px;
   font-style: italic;
 }
 
@@ -165,10 +165,10 @@ h5 {
 #product {
   min-height: 650px;
   background: #e4474e;
-  background: linear-gradient(left, #e4474e, #6f3235);
+  background: linear-gradient(to right, #e4474e, #6f3235);
   background: -webkit-linear-gradient(left, #e4474e, #6f3235);
-  background: -o-linear-gradient(left, #e4474e, #6f3235);
-  background: -moz-linear-gradient(left, #e4474e, #6f3235);
+  background: -o-linear-gradient(right, #e4474e, #6f3235);
+  background: -moz-linear-gradient(right, #e4474e, #6f3235);
 }
 
 #product h6 {
